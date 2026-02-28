@@ -64,7 +64,7 @@ push_config = {
 
     'IGOT_PUSH_KEY': '',                # iGot 聚合推送的 IGOT_PUSH_KEY
 
-    'PUSH_KEY': '5e3b8cddbc5d4f908647cc5b65058a65',                     # server 酱的 PUSH_KEY，兼容旧版与 Turbo 版
+    'PUSH_KEY': '',                     # server 酱的 PUSH_KEY，兼容旧版与 Turbo 版
 
     'DEER_KEY': '',                     # PushDeer 的 PUSHDEER_KEY
     'DEER_URL': '',                     # PushDeer 的 PUSHDEER_URL
@@ -99,11 +99,11 @@ push_config = {
     'AIBOTK_TYPE': '',                  # 智能微秘书 发送目标 room 或 contact
     'AIBOTK_NAME': '',                  # 智能微秘书  发送群名 或者好友昵称和type要对应好
 
-    'SMTP_SERVER': 'smtp.qq.com',                  # SMTP 发送邮件服务器，形如 smtp.exmail.qq.com:465
+    'SMTP_SERVER': '',                  # SMTP 发送邮件服务器，形如 smtp.exmail.qq.com:465
     'SMTP_SSL': 'false',                # SMTP 发送邮件服务器是否使用 SSL，填写 true 或 false
-    'SMTP_EMAIL': 'ao.s@qq.com',                   # SMTP 收发件邮箱，通知将会由自己发给自己
-    'SMTP_PASSWORD': 'vsijnzlhnnwhddjh',                # SMTP 登录密码，也可能为特殊口令，视具体邮件服务商说明而定
-    'SMTP_NAME': '雨云',                    # SMTP 收发件人姓名，可随意填写
+    'SMTP_EMAIL': '',                   # SMTP 收发件邮箱，通知将会由自己发给自己
+    'SMTP_PASSWORD': '',                # SMTP 登录密码，也可能为特殊口令，视具体邮件服务商说明而定
+    'SMTP_NAME': '',                    # SMTP 收发件人姓名，可随意填写
 
     'PUSHME_KEY': '',                   # PushMe 的 PUSHME_KEY
     'PUSHME_URL': '',                   # PushMe 的 PUSHME_URL
